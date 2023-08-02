@@ -38,3 +38,8 @@ Efetivamente, cada objeto é, ele prórprio, uma fábrica especializada em const
 <summary>Prototype</summary>
 É um padrão de projeto do tipo estrutural que possibilita a divisão de uma classe grande ou um conjunto de classes ligadas em dois grupos: Abstração e Implementação. Isso permite que os dois grupos sejam desenvolvidos de forma independente e o código cliente possa acessar apenas a parte de Abstração sem se preocupar com a parte de Implementação.
 </details>
+
+<details>
+<summary>Composite</summary>
+OComposite é um padrão de projeto do tipo estrutural que compoe objetos em uma estrutura de árvore de forma hierárquica, esse modelo permite que os elementos contidos em um objeto composto possam ser tratados como um objeto único.
+</details>
