@@ -21,6 +21,12 @@ O Singleton é um padrão de projeto do tipo criacional, que visa criar um objet
 O Builder é um padrão de projeto do tipo criacional, que possibilita separar a construção de partes de um objeto complexo de sua representação. Este padrão permite produzir diferentes tipos e representações de um objeto utilizando o mesmo código de construção.
 </details>
 
+<details>
+<summary>Prototype</summary>
+O padrão de projeto do tipo prototype é do tipo criacional e tem como escopo gerar cópias de um objeto já existente a partir de um modelo original ou protótipo, ele é capaz de clonar a si mesmo.
+Efetivamente, cada objeto é, ele prórprio, uma fábrica especializada em construir objetos iguais a si mesmo. 
+</details>
+
 ## Design Patterns de estruturais
 <details>
 <summary>Adapter</summary>
