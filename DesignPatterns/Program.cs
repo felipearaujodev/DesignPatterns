@@ -10,6 +10,7 @@ using DesignPatterns.PatternsEstrutural.Bridge.Implementacao;
 using DesignPatterns.PatternsEstrutural.Composite;
 using DesignPatterns.PatternsEstrutural.Decorator;
 using DesignPatterns.PatternsEstrutural.Facade;
+using DesignPatterns.PatternsEstrutural.Proxy;
 using System.Net.Http.Json;
 
 Console.WriteLine("Design Patterns!");
@@ -66,5 +67,9 @@ Console.WriteLine("Design Patterns!");
 //client.ConsumirServicos();
 
 //Facade
-FacadeManager facade = new FacadeManager();
-facade.ExecutarComplexidade();
+//FacadeManager facade = new FacadeManager();
+//facade.ExecutarComplexidade();
+
+//Proxy
+ClientProxy client = new ClientProxy();
+client.ConectarClientVPN();
