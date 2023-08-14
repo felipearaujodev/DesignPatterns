@@ -48,3 +48,9 @@ O Composite é um padrão de projeto do tipo estrutural que compoe objetos em um
 <summary>Decorator</summary>
 É um padrão de projeto do tipo estrutural que permite incorporar e/ou alterar comportamentos de forma dinâmica em um objeto. É uma alternativa flexível ao uso de herança que estende comportamentos a um objeto em tempo de execução ao invés de usar uma subclasse inteira.
 </details>
+
+<details>
+<summary>Facade</summary>
+O Padrão de projeto Facade (Fachada) do tipo estrutural que fornece uma interface simplificada para um código muito complexo. O Facade esconde a complexidade de um sistema maior e entrega uma interface mais simples de ser utilizada.
+  Tem o objetivo de disponibilizar uma interface unificada, mas isso pode gerar um problema, uma classe "Faz tudo", para solucionar isso o Facade pode ser dividido em sub-facades gerenciados por um único Facade, dependendo da complexidade do sistema. Ele também exime quem vai utilizar o sistema de ter que entender toda a complexidade do mesmo.
+</details>
