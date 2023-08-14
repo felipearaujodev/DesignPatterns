@@ -41,5 +41,10 @@ Efetivamente, cada objeto é, ele prórprio, uma fábrica especializada em const
 
 <details>
 <summary>Composite</summary>
-OComposite é um padrão de projeto do tipo estrutural que compoe objetos em uma estrutura de árvore de forma hierárquica, esse modelo permite que os elementos contidos em um objeto composto possam ser tratados como um objeto único.
+O Composite é um padrão de projeto do tipo estrutural que compoe objetos em uma estrutura de árvore de forma hierárquica, esse modelo permite que os elementos contidos em um objeto composto possam ser tratados como um objeto único.
+</details>
+
+<details>
+<summary>Decorator</summary>
+É um padrão de projeto do tipo estrutural que permite incorporar e/ou alterar comportamentos de forma dinâmica em um objeto. É uma alternativa flexível ao uso de herança que estende comportamentos a um objeto em tempo de execução ao invés de usar uma subclasse inteira.
 </details>
