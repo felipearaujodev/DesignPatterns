@@ -8,6 +8,7 @@ using DesignPatterns.PatternsEstrutural.Bridge;
 using DesignPatterns.PatternsEstrutural.Bridge.Abstracao;
 using DesignPatterns.PatternsEstrutural.Bridge.Implementacao;
 using DesignPatterns.PatternsEstrutural.Composite;
+using DesignPatterns.PatternsEstrutural.Decorator;
 using System.Net.Http.Json;
 
 Console.WriteLine("Design Patterns!");
@@ -56,5 +57,9 @@ Console.WriteLine("Design Patterns!");
 //}
 
 //Composite
-ClientComposite client = new ClientComposite();
-client.EfetuarCompra();
+//ClientComposite client = new ClientComposite();
+//client.EfetuarCompra();
+
+//Decorator
+ClientDecorator client = new ClientDecorator();
+client.ConsumirServicos();
