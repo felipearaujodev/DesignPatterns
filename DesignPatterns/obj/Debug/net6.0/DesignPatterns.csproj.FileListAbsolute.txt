@@ -28,3 +28,5 @@ C:\Users\E470\source\repos\felipearaujodev\DesignPatterns\DesignPatterns\obj\Deb
 C:\Users\E470\source\repos\felipearaujodev\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.pdb
 C:\Users\E470\source\repos\felipearaujodev\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.genruntimeconfig.cache
 C:\Users\E470\source\repos\felipearaujodev\DesignPatterns\DesignPatterns\obj\Debug\net6.0\ref\DesignPatterns.dll
+C:\Users\E470\source\repos\felipearaujodev\DesignPatterns\DesignPatterns\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\E470\source\repos\felipearaujodev\DesignPatterns\DesignPatterns\obj\Debug\net6.0\DesignPatterns.csproj.CopyComplete

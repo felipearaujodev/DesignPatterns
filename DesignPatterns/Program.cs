@@ -3,6 +3,7 @@ using DesignPatterns.Patterns.AbstractFactory;
 using DesignPatterns.Patterns.Builder;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Singleton;
+using DesignPatterns.PatternsComportamental.TemplateMethod;
 using DesignPatterns.PatternsEstrutural.Adapter;
 using DesignPatterns.PatternsEstrutural.Bridge;
 using DesignPatterns.PatternsEstrutural.Bridge.Abstracao;
@@ -70,6 +71,10 @@ Console.WriteLine("Design Patterns!");
 //FacadeManager facade = new FacadeManager();
 //facade.ExecutarComplexidade();
 
-//Proxy
-ClientProxy client = new ClientProxy();
-client.ConectarClientVPN();
+////Proxy
+//ClientProxy client = new ClientProxy();
+//client.ConectarClientVPN();
+
+//Template Method
+ClientTemplateMethod client = new ClientTemplateMethod();
+client.ConsumirEndPointJSON();

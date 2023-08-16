@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9LYAAEG5FhuPztsn2TjNDBhs+8qhSDIoMgdIkgaJU4mhat8tlbrMcT/ArQgdp+T3OhipVqAJqTcMT464Pbp0Mg==",
+  "dgSpecHash": "/t7+FxFAAHrGJB8Ci0cfJQu8VO4ZiaOnles6B/BTRBkV1mAGDwWSh4pR0XEsmahNt/SHnxWhzG1R3u79DpUbIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\E470\\source\\repos\\felipearaujodev\\DesignPatterns\\DesignPatterns\\DesignPatterns.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\E470\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
