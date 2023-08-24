@@ -3,6 +3,7 @@ using DesignPatterns.Patterns.AbstractFactory;
 using DesignPatterns.Patterns.Builder;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Singleton;
+using DesignPatterns.PatternsComportamental.Interpreter.Jumanji;
 using DesignPatterns.PatternsComportamental.TemplateMethod;
 using DesignPatterns.PatternsEstrutural.Adapter;
 using DesignPatterns.PatternsEstrutural.Bridge;
@@ -76,5 +77,8 @@ Console.WriteLine("Design Patterns!");
 //client.ConectarClientVPN();
 
 //Template Method
-ClientTemplateMethod client = new ClientTemplateMethod();
-client.ConsumirEndPointJSON();
+//ClientTemplateMethod client = new ClientTemplateMethod();
+//client.ConsumirEndPointJSON();
+
+ApresentaPopUp apresenta = new ApresentaPopUp();
+apresenta.ApresentarHabilidades();
