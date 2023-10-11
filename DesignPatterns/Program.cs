@@ -4,6 +4,7 @@ using DesignPatterns.Patterns.Builder;
 using DesignPatterns.Patterns.Prototype;
 using DesignPatterns.Patterns.Singleton;
 using DesignPatterns.PatternsComportamental.Interpreter.Jumanji;
+using DesignPatterns.PatternsComportamental.Observer;
 using DesignPatterns.PatternsComportamental.TemplateMethod;
 using DesignPatterns.PatternsEstrutural.Adapter;
 using DesignPatterns.PatternsEstrutural.Bridge;
@@ -80,5 +81,8 @@ Console.WriteLine("Design Patterns!");
 //ClientTemplateMethod client = new ClientTemplateMethod();
 //client.ConsumirEndPointJSON();
 
-ApresentaPopUp apresenta = new ApresentaPopUp();
-apresenta.ApresentarHabilidades();
+//ApresentaPopUp apresenta = new ApresentaPopUp();
+//apresenta.ApresentarHabilidades();
+
+SendMail send =  new SendMail();
+send.EnviarEmail();
